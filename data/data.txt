@@ -1,0 +1,22 @@
+This directory contains the plain text content for the Wikipedia
+entries linked from Wikipedia's list of gay, lesbian or bisexual individuals.
+
+It contains 2883 unique wikipedia pages for 2897 table listings.
+(In additions, there was one listing that had a link to a nonexistent page,
+and three that did not have links to pages.
+
+The text files do not include images, links, or tables. They include
+simple markup for section headers.
+
+They were obtained using the `wikipedia` Python package, which is a
+simple package for parsing data from Wikipedia.
+
+In addition, `lgb_table.csv` contains the table metadata (name,
+page title, lifetime, nationality, reason for notability, and label
+as L, G, or B). `lgb_pages.csv` contains page title, page id, url, summary,
+and full content for each page (so, the last column replicates the txt/ folder,
+where the link between them is the numeric page id).
+
+(I plan to include entries from the separate list of transgender individuals,
+but the data structure for that page is in a different form that needs
+separate scripts.)

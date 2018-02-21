@@ -1,0 +1,4 @@
+notes/*
+*.pdf
+.ipynb_checkpoints/*
+.Rhistory
